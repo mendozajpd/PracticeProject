@@ -15,6 +15,7 @@ public class Health : Gauge, IDamageable, IHealable
         if(Current <= 0)
         {
             _onDie.Invoke();
+            Debug.Log(gameObject.name + " has died!");
             Destroy(gameObject);
         }
         
