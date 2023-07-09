@@ -2,15 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PowerupList : MonoBehaviour
+[System.Serializable]
+public class PowerupList 
 {
-    void Start()
-    {
-        
-    }
+    public Powerup powerups;
+    public string name;
+    public int stack;
 
-    void Update()
+    public PowerupList(Powerup newPowerup, string powerupName, int newStack)
     {
-        
+        powerups = newPowerup;
+        name = powerupName;
+        stack = newStack;
     }
 }
