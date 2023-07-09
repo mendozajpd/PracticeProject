@@ -6,7 +6,7 @@ using UnityEngine;
 public abstract class Gauge : MonoBehaviour
 {
     [SerializeField] private float initialValue;
-    private float _current;
+    [SerializeField] private float _current;
 
     public float Current 
     { 

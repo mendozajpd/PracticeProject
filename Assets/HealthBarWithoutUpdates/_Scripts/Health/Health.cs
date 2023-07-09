@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class Health : Gauge, IDamageable, IHealable
 {
     [SerializeField] private UnityEvent _onDie; // Event for when the unit dies
+    
 
     // Add IDamageable function
     public void Damage(float damageAmount)
