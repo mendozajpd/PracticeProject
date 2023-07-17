@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 
+namespace AsyncPractice
+{
+
 public class ShapeMoveScript : MonoBehaviour
 {
     public async Task MoveShape (float duration)
@@ -17,4 +20,6 @@ public class ShapeMoveScript : MonoBehaviour
             await Task.Yield();
         }
     }
+}
+
 }

@@ -210,7 +210,7 @@ Transform:
   m_Children:
   - {fileID: 8836453184450324259}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &686016236
 GameObject:
@@ -241,7 +241,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &839061382
 GameObject:
@@ -272,7 +272,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1109752104
 GameObject:
@@ -334,8 +334,65 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1312019129
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.5525293
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.1128404
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775307, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_Name
+      value: Health Regen Powerup (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
 --- !u!1 &1335368576
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,29 +422,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1444935167 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6232529288789775307, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
-  m_PrefabInstance: {fileID: 19271008}
-  m_PrefabAsset: {fileID: 0}
---- !u!58 &1444935168
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444935167}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!1 &1502491687
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,7 +453,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1828233275
 GameObject:
@@ -448,7 +484,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1872025732
 GameObject:
@@ -480,7 +516,7 @@ Transform:
   m_Children:
   - {fileID: 1917908615}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1877756816
 GameObject:
@@ -511,7 +547,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1917908612
 GameObject:
@@ -597,6 +633,63 @@ Transform:
   m_Father: {fileID: 1872025733}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1944464207
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.7470813
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1011672
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775305, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232529288789775307, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
+      propertyPath: m_Name
+      value: Health Regen Powerup (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8b9b501a0415f7a4f8cf77fbc7bc537f, type: 3}
 --- !u!1 &1974877956
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,7 +719,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8836453184450324259
 Transform:

@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace BombPractice
+{
+
 public class GameManagerScript : MonoBehaviour
 {
     [SerializeField] private GameObject _bombPrefab;
@@ -20,4 +23,6 @@ public class GameManagerScript : MonoBehaviour
             Instantiate(_bombPrefab, mousePosition, Quaternion.identity);
         }
     }
+}
+
 }

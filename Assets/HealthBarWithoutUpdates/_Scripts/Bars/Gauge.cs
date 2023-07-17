@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public abstract class Gauge : MonoBehaviour
 {
     [SerializeField] private float initialValue;
@@ -26,3 +27,4 @@ public abstract class Gauge : MonoBehaviour
     public Action OnChange;
     public void Awake() => _current = initialValue;
 }
+

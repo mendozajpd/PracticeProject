@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace AbstractClassPowerups
+{
+
 public class PowerupPickup : MonoBehaviour
 {
     public Powerup powerup;
@@ -57,4 +60,6 @@ public class PowerupPickup : MonoBehaviour
 public enum Powerups
 {
     HealthRegenPowerup
+}
+
 }

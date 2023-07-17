@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+namespace BombPractice
+{
+
 public class BombManager : MonoBehaviour
 {
     public float DetonationTime = 1.5f;
@@ -35,5 +38,7 @@ public class BombManager : MonoBehaviour
     {
         _bombType.Explode();
     }
+
+}
 
 }

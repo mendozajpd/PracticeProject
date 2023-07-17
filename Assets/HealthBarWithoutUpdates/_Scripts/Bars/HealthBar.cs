@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+
 public class HealthBar : MonoBehaviour
 {
     // Add Gauge class
@@ -19,3 +21,4 @@ public class HealthBar : MonoBehaviour
     private void updateGauge() => fillImage.fillAmount = health.Ratio;
 
 }
+

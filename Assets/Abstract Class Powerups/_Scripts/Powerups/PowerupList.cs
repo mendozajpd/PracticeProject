@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace AbstractClassPowerups
+{
+
 [System.Serializable]
 public class PowerupList 
 {
@@ -15,4 +18,6 @@ public class PowerupList
         name = powerupName;
         stack = newStack;
     }
+}
+
 }

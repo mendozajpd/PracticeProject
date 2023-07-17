@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace AbstractClassPowerups
+{
+
 [System.Serializable]
 public abstract class Powerup 
 {
@@ -26,6 +29,16 @@ public class HealthRegenPowerup : Powerup
 
     public override void Update(PowerupsManager player, int stack)
     {
-        player.health.Current += 1 * stack;
+        if (player.health.Current < player.health.Initial)
+        {
+            player.health.Current += 1 * stack;
+        }
+
+        if (player.health.Current > player.health.Initial)
+        {
+            player.health.Current = player.health.Initial;
+        }
     }
+}
+
 }

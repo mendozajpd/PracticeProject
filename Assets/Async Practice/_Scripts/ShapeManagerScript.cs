@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Threading.Tasks;
 
+namespace AsyncPractice
+{
+
 public class ShapeManagerScript : MonoBehaviour
 {
     [SerializeField] private ShapeMoveScript[] _shapeScripts;
@@ -26,4 +29,6 @@ public class ShapeManagerScript : MonoBehaviour
 
         _canvas.enabled = true;
     }
+}
+
 }

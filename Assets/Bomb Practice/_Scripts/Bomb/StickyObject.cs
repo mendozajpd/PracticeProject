@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace BombPractice
+{
+
 public class StickyObject : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
@@ -13,5 +16,7 @@ public class StickyObject : MonoBehaviour
             joint.connectedBody = otherRigidbody;
         }
     }
+
+}
 
 }

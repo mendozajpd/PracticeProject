@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+namespace AbstractClassPowerups
+{
+
 [RequireComponent(typeof(Health))]
 public class PlayerController : MonoBehaviour
 {
@@ -98,4 +102,6 @@ public class PlayerController : MonoBehaviour
     {
         _health.Heal(_health.Initial * 0.2f);
     }
+}
+
 }

@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace HealthBarWithoutUpdates
+{
+
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private List<Health> thingsToGetDamaged = new List<Health>();
@@ -39,4 +42,6 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("I DIED");
     }
+}
+
 }

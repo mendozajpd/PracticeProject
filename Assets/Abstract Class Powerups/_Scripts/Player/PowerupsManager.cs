@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+namespace AbstractClassPowerups
+{
+
 [RequireComponent(typeof(Health))]
 public class PowerupsManager : MonoBehaviour
 {
@@ -36,4 +40,6 @@ public class PowerupsManager : MonoBehaviour
         yield return new WaitForSeconds(updateSpeed);
         StartCoroutine(CallItemUpdate());
     }
+}
+
 }

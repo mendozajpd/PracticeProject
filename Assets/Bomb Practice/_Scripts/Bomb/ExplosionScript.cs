@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace BombPractice
+{
+
 public class ExplosionScript : MonoBehaviour
 {
 
@@ -28,4 +31,6 @@ public class ExplosionScript : MonoBehaviour
             Destroy(gameObject);
         }
     }
+}
+
 }

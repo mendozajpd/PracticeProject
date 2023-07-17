@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+
+
 public class Health : Gauge, IDamageable, IHealable
 {
     [SerializeField] private UnityEvent _onDie; // Event for when the unit dies
@@ -32,3 +34,4 @@ public class Health : Gauge, IDamageable, IHealable
         }
     }
 }
+

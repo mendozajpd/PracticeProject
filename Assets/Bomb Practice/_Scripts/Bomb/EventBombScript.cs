@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+namespace BombPractice
+{
+
 public class EventBombScript : MonoBehaviour
 {
     public UnityEvent OnBoom;
@@ -27,4 +30,6 @@ public class EventBombScript : MonoBehaviour
     {
         OnBoom.Invoke();
     }
+}
+
 }
