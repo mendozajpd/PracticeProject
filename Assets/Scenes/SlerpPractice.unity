@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 30
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -237,13 +237,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff21dd4a1d8442d46bbebe575c58226d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultPos: {x: -8, y: 0, z: 0}
-  targetPos: {x: 0, y: 0, z: 0}
-  moveAmount: 0
-  mainCamera: {fileID: 0}
-  mousePos: {x: 0, y: 0, z: 0}
-  trajectoryvalueX: 0.1
-  move: 0
+  defaultPos: {x: 0, y: 0}
+  targetPos: {x: 4, y: 2}
+  moveAmount: 1.0041085
+  mainCamera: {fileID: 1273211480}
+  mousePos: {x: 22.273605, y: 12.369943, z: -10}
+  shoot: 0
+  overhand: 0
 --- !u!212 &1946272697
 SpriteRenderer:
   m_ObjectHideFlags: 0
